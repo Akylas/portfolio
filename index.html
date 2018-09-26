@@ -7,7 +7,7 @@ layout: default
             {% for post in site.posts %}
             <div class="slide" data-content="{% if post.external_url and post.external_url != '' %}{{ post.external_url }}{% else %}{{ post.permalink | prepend: site.baseurl }}{% endif %}">
                 <div class="slide__mover">
-                    <div class="zoomer flex-center">
+                    <div class="zoomer flex-center {{ post.device }}">
                         {% assign device_image = '/images/' | append: post.device | append: '.png' | prepend: site.baseurl %}
                         <img class="zoomer__image" src="{{ device_image }}" alt="{{ post.device }}" />
                         <div class="preview">
