@@ -1,21 +1,21 @@
 # Site settings
-title: CompanyName
-email: you@CompanyName.com
+title: Marco Betschart
+email: email@marco.betschart.name
 description: "Edit description in _config.yml"
-info: "Edit this info in _config.yml"
-message: "Edit this message in _config.yml"
+info: "lover of the never ending journey of exploration. self growth and tech enthusiast. ambitious rock climber. and ... from time to time adrenaline junkie."
+message: "a developers portfolio"
 keywords: "mac,apple,iphone,ios,osx,games,apps,development"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.delightfuldev.com" # the base hostname & protocol for your site
-twitter_username: companytwitter
+url: "https://marco.betschart.name" # the base hostname & protocol for your site
+twitter_username: marbetschar
 # Build settings
 markdown: kramdown
 author:
-    name: Your Name
-    twitter: yourtwitter
-    url: http://www.yoururl.com
-    header_bg: /images/profile-header.png
-    avatar: /images/avatar.jpg
-    email: you@CompanyName.com
+    name: Marco Betschart
+    twitter: marbetschar
+    url: https://marco.betschart.name
+    header_bg: /images/code.jpg
+    avatar: //gravatar.com/avatar/c87c34d3cb7f5487017e76ba4520d245?s=512
+    email: email@marco.betschart.name
 facebook:
     image: /images/delightfuldev-facebook-cover.png

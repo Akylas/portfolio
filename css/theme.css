@@ -1,0 +1,4 @@
+:root {
+    --tint-color-rgb: 76, 217, 100;
+    --tint-color: rgb(var(--tint-color-rgb));
+}

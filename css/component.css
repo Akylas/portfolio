@@ -87,7 +87,7 @@ body {
 	margin: 0 25px;
 	padding: 0;
 	cursor: pointer;
-	color: #5c5edc;
+	color: var(--tint-color);
 	border: none;
 	background: none;
 }
@@ -279,7 +279,7 @@ body {
 	font-size: 1.95em;
 	font-weight: normal;
 	margin: 0.25em 0 0.5em;
-	color: #685884;
+	color: rgba(var(--tint-color-rgb), 0.8);
 }
 
 .content p {
