@@ -9,3 +9,5 @@ fields:
   description: appears on the top of the app's page.
   config:
     required: true
+pages:
+- _posts/Test.md
