@@ -61,5 +61,8 @@ fields:
 - type: file
   name: app_preview
   label: App Preview
+- type: file
+  label: App Icon
+  name: app_icon
 pages:
 - _posts/Test.md
