@@ -5,14 +5,14 @@ layout: default
     <div style="display: flex; flex-direction: column; height: 88%; width: 100%; position: absolute; justify-content: center;">
         <section class="slider" id="main_slider">
             {% for post in site.posts %}
-            <div class="slide" data-content="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.permalink | prepend: site.baseurl }}{% endif %}">
+            <div class="slide" data-content="{% if false == post.external_url.to_s.empty? %}{{ post.external_url }}{% else %}{{ post.permalink | prepend: site.baseurl }}{% endif %}">
                 <div class="slide__mover">
                     <div class="zoomer flex-center">
                         {% assign device_image = '/images/' | append: post.device | append: '.png' | prepend: site.baseurl %}
                         <img class="zoomer__image" src="{{ device_image }}" alt="{{ post.device }}" />
                         <div class="preview">
                             {% assign app_preview = '/images/' | append: post.name | downcase | append: '/preview.png'  %}
-                            {% if post.app_preview %}
+                            {% if false == post.app_preview.to_s.empty? %}
                                 {% assign app_preview = post.app_preview %}
                             {% endif %}
                             <img src="{{ app_preview | prepend: site.baseurl }}" alt="{{ post.name }}" />

@@ -6,7 +6,7 @@ layout: default
 	<div class="content__item content__item--current content__item--reset">
 		<div class="content__item-inner">
 			{% assign app_icon = '/images/' | append: page.name | downcase | append: '/icon.png' %}
-			{% if page.app_icon %}
+			{% if false == page.app_icon.to_s.empty? %}
 				{% assign app_icon = page.app_icon %}
 			{% endif %}
 			<img class="content__item-img animated bounceInDown" src="{{ app_icon | prepend: site.baseurl }}" alt="{{ page.title }}" id="app-icon" />
