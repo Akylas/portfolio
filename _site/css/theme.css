@@ -1,0 +1,48 @@
+:root {
+    --tint-color-rgb: 76, 217, 100;
+    --tint-color: rgb(var(--tint-color-rgb));
+}
+
+/* add support for high res images */
+
+/* iMac */
+.zoomer.imac .zoomer__image {
+    max-width: 446px;
+    max-height: 360px;
+}
+
+/* MacBook */
+.zoomer.macbook .zoomer__image {
+    max-width: 442px;
+    max-height: 360px;
+}
+.zoomer.macbook .preview img {
+    max-width: 304px;
+    max-height: 182px;
+}
+
+/* iPad */
+.zoomer.ipad .zoomer__image {
+    max-width: 244px;
+    max-height: 360px;
+}
+
+/* iPhone */
+.zoomer.iphone .zoomer__image {
+    max-width: 183px;
+    max-height: 360px;
+}
+.zoomer.iphone .preview img {
+    max-width: 138px;
+    max-height: 244px;
+}
+
+/* Apple Watch */
+.zoomer.apple-watch .zoomer__image {
+    max-width: 150px;
+    max-height: 360px;
+}
+.zoomer.apple-watch .preview img {
+    max-width: 86px;
+    max-height: 110px;
+}
