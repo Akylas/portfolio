@@ -1,4 +1,5 @@
 # Site settings
+safe: false
 title: Marco Betschart
 email: email@marco.betschart.name
 description: "Edit description in _config.yml"
