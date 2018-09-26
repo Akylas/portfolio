@@ -58,5 +58,8 @@ fields:
   name: external_url
   label: External URL
   description: If you want to open external URL when user clicks on the app, set this
+- type: file
+  name: app_preview
+  label: App Preview
 pages:
 - _posts/Test.md
