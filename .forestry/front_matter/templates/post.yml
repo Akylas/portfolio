@@ -1,0 +1,11 @@
+---
+label: post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Title
+  name: title
+  description: appears on the top of the app's page.
+  config:
+    required: true
