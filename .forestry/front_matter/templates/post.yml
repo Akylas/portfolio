@@ -9,5 +9,54 @@ fields:
   description: appears on the top of the app's page.
   config:
     required: true
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: appears after the title in the app's page.
+- type: textarea
+  name: description
+  label: Description
+  description: Used in the head's meta.
+- type: datetime
+  name: date
+  label: Date
+  description: Published date.
+  config:
+    date_format: YYYY-DD-MM
+    time_format: h:mm
+- type: tag_list
+  name: categories
+  label: Categories
+- type: text
+  name: permalink
+  label: Permalink
+  description: This sets the app's URL to baseurl/permalink.
+  config:
+    required: true
+- type: select
+  name: device
+  config:
+    source:
+      type: simple
+    options:
+    - imac
+    - macbook
+    - iphone
+    - ipad
+    - apple-watch
+  label: Device
+  description: Type of device to use for this app in the landing page.
+- type: text
+  name: name
+  label: Name
+  description: Name of the app that is shown on the landing page
+- type: text
+  label: Tagline
+  name: tagline
+  description: Shown under name on the landing page
+- type: text
+  name: external_url
+  label: External URL
+  description: If you want to open external URL when user clicks on the app, set this
 pages:
 - _posts/Test.md
